@@ -3,6 +3,7 @@ package com.example.git.model;
 public class User {
     private int id;
     private String email;
+    private String password;
     private String user_name;
 
     public int getId() {
@@ -27,5 +28,13 @@ public class User {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
